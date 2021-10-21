@@ -24,3 +24,7 @@ input {
   border: none;
   cursor: pointer;
 }
+
+.centrar-form {
+  text-align: center;
+}
