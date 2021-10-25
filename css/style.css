@@ -29,3 +29,12 @@ input {
 .centrar-form {
   text-align: center;
 }
+
+.caja {
+  background: red;
+  margin: 2rem;
+  padding: 2rem;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}

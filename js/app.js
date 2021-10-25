@@ -49,11 +49,22 @@ const hermanos = document.querySelector('ul.listas-cursos > li.list');
 console.log(hermanos.nextElementSibling);
 */
 
+/* Video 6
 const enviar = document.getElementById('mensaje');
-
 function mensaje_uno() {
   console.log('mensaje enviado');
 }
 function mensaje_dos() {
   console.log('mensaje guerdado');
+}
+*/
+
+function evento() {
+  alert('mensaje enviado!!!');
+}
+function evento2() {
+  alert('activaste click dereco');
+}
+function evento3() {
+  alert('activaste doble click dereco');
 }
