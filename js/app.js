@@ -24,7 +24,7 @@ elemento = document.links;
 console.log(elemento);
 */
 
-/* Video 4
+/* Video 5
 const elemento = document.getElementById('t-cursos');
 const elemento = document.getElementById('mensajes');
 const elemento = document.getElementsByClassName('list');
@@ -44,5 +44,16 @@ console.log(abuelo.parentElement);
 console.log(abuelo.parentElement.parentElement);
 */
 
+/* Video 6
 const hermanos = document.querySelector('ul.listas-cursos > li.list');
 console.log(hermanos.nextElementSibling);
+*/
+
+const enviar = document.getElementById('mensaje');
+
+function mensaje_uno() {
+  console.log('mensaje enviado');
+}
+function mensaje_dos() {
+  console.log('mensaje guerdado');
+}
