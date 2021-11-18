@@ -59,12 +59,21 @@ function mensaje_dos() {
 }
 */
 
+/* Video 7
 function evento() {
   alert('mensaje enviado!!!');
 }
 function evento2() {
-  alert('activaste click dereco');
+  alert('activaste click derecho');
 }
 function evento3() {
-  alert('activaste doble click dereco');
+  alert('activaste doble click izquierdo');
 }
+*/
+
+/* Video 7
+ */
+const entrada = document.getElementById('input');
+entrada.addEventListener('keydown', function (e) {
+  console.log(`Presionaste la tecla ${e.key}`);
+});

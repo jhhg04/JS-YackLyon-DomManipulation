@@ -19,11 +19,12 @@ input {
   width: 80%;
   height: 30px;
   margin: 10px;
-  color: white;
-  background: red;
+  color: black;
+  background: yellow;
   border: none;
   border-radius: 3px;
   cursor: pointer;
+  font-size: 25px;
 }
 
 .centrar-form {
@@ -31,6 +32,15 @@ input {
 }
 
 .caja {
+  background: red;
+  margin: 2rem;
+  padding: 2rem;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+#caja {
   background: red;
   margin: 2rem;
   padding: 2rem;
